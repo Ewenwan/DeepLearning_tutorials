@@ -1,18 +1,18 @@
-# Deep Learning Tutorials with Tensorflow
-The deeplearning algorithms are carefully implemented by [tensorflow](https://www.tensorflow.org/).  
+# Deep Learning Tutorials with Tensorflow 深度学习
+The deeplearning algorithms are carefully implemented by [tensorflow](https://www.tensorflow.org/).  
 ### Environment
 - Python 3.5
 - tensorflow 1.4
 - pytorch 0.2.0
 
 ### The deeplearning algorithms includes (now):
-- Logistic Regression  [logisticRegression.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/logisticRegression.py)
-- Multi-Layer Perceptron (MLP) [mlp.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/mlp.py)
-- Convolution Neural Network (CNN) [cnn.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/cnn.py)
-- Denoising Aotoencoder (DA) [da.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/da.py)
+- 逻辑回归 Logistic Regression   [logisticRegression.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/logisticRegression.py)
+- 多层感知机 Multi-Layer Perceptron (MLP) [mlp.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/mlp.py)
+- 卷积神经网络 Convolution Neural Network (CNN) [cnn.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/cnn.py)
+- 自编码 Denoising Aotoencoder (DA) [da.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/da.py)
 - Stacked Denoising Autoencoder (SDA) [sda.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/sda.py)
-- Restricted Boltzmann Machine (RBM) [[rbm.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/rbm.py)    [gbrbm.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/gbrbm.py)]
-- Deep Belief Network (DBN) [dbn.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/dbn.py)
+- 受限玻尔兹曼机Restricted Boltzmann Machine (RBM) [[rbm.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/rbm.py)    [gbrbm.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/gbrbm.py)]
+- 深度信念网络Deep Belief Network (DBN) [dbn.py](https://github.com/xiaohu2015/DeepLearning_tutorials/blob/master/models/dbn.py)
 
 Note: the project aims at imitating the well-implemented algorithms in [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/) (coded by [Theano](http://deeplearning.net/software/theano/index.html)).
 
