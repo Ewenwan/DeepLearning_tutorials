@@ -23,7 +23,7 @@ class Yolo(object):
                         "sheep", "sofa", "train","tvmonitor"]# 分类的物体类别
         self.C = len(self.classes) # number of classes 类别总数
         
-        # offset for box center (top left point of each cell) 格子框的 左上角
+        # offset for box center (top left point of each cell) 格子框的 左上角 0 1 2 3 4 5 6
         self.x_offset = np.transpose(np.reshape(np.array([np.arange(self.S)]*self.S*self.B),
                                               [self.B, self.S, self.S]), [1, 2, 0])
         self.y_offset = np.transpose(self.x_offset, [1, 0, 2])
