@@ -1,5 +1,6 @@
 """
 Help functions for YOLOv2
+常用函数等核心函数 计算两个边框之间的交并比 非极大值抑制
 """
 import random
 import colorsys
