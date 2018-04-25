@@ -37,3 +37,4 @@ def decode(detection_feat, feat_sizes=(13, 13), num_classes=80,
                        bbox_x + bbox_w, bbox_y + bbox_h], axis=3)
 
     return bboxes, obj_probs, class_probs
+
