@@ -1,6 +1,8 @@
 """
 YOLOv2 implemented by Tensorflow, only for predicting
+yolo-v2 模型文件  dark-19  passthrough 层 跨通道合并特征
 """
+
 import os
 
 import numpy as np
